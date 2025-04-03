@@ -1,3 +1,5 @@
+# mlog [![Go Reference](https://pkg.go.dev/badge/github.com/ariocp/mlog.svg)](https://pkg.go.dev/github.com/ariocp/mlog)
+
 ```
 go get github.com/ariocp/mlog
 ```
