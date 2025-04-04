@@ -26,9 +26,7 @@ func Log(level logger.LogLevel, args ...interface{}) { mlog.Log(level, args...) 
 
 // Logf writes a formatted log message at the specified log level
 // It checks if the log level is at or above the current configured log level and writes the formatted message
-func Logf(format string, level logger.LogLevel, args ...interface{}) {
-	mlog.Logf(format, level, args...)
-}
+func Logf(format string, level logger.LogLevel, args ...interface{}) { mlog.Logf(format, level, args...) }
 
 // Debug logs a debug message at the DEBUG level
 // These messages are typically used for debugging purposes and are only logged when the log level includes DEBUG or lower
